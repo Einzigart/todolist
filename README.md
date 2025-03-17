@@ -1,6 +1,6 @@
 # Todo App
 
-A simple, visually appealing to-do list application built with Django, React, and SQLite (configurable for PostgreSQL).
+A simple to-do list application built with Django, React, and PostgreSQL.
 
 ## Features
 
@@ -15,7 +15,7 @@ A simple, visually appealing to-do list application built with Django, React, an
 ### Backend
 - Django
 - Django REST Framework
-- SQLite (configurable for PostgreSQL)
+- PostgreSQL
 
 ### Frontend
 - React
@@ -138,7 +138,7 @@ A simple, visually appealing to-do list application built with Django, React, an
    - Todo model defines the data structure and interacts with the database
 
 4. **Database Operations**:
-   - SQLite (or PostgreSQL if configured) stores all todo data
+   - PostgreSQL stores all todo data
    - Django ORM handles database queries and transactions
 
 ## Setup Instructions
